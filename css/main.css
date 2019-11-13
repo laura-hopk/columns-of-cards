@@ -1,7 +1,105 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #f2f2f2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+  margin-top: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+h1 {
+  margin: 1.5rem 0;
+}
+
+img {
+  display: block;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+  width: 100%;
+  width: 100px;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  margin-top: 1rem;
+}
+
+div {
+  font-family: "Open Sans", sans-serif;
+  font-size: .875rem;
+  display: flex;
+  width: 25%;
+  padding: .75rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+div p {
+  flex-grow: 1;
+}
+
+.one {
+  background-color: #e2e2e2;
+  border-right: 2px #333 solid;
+}
+
+.two {
+  background-color: #ccc;
+  border-right: 2px #333 solid;
+}
+
+.three {
+  background-color: #aaa;
+  border-right: 2px #333 solid;
+}
+
+.four {
+  background-color: #999;
+}
+
+cite {
+  font-style: italic;
+  font-weight: normal;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+}
+
+.btn-small {
+  font-size: .875rem;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn {
+  display: block;
+  border-radius: 8px;
+  padding: .75rem;
+}
+
+.btn:hover {
+  background-color: #000;
 }
